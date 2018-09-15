@@ -1,0 +1,19 @@
+{% include('common/_header.twig') %}
+
+    <div class="main">
+
+        {% include('common/_admin_nav.twig') %}
+
+        <div class="content">
+            <div class="wrapper wrapper-admin">
+
+                <p class="message error-message">
+                    Произошла ошибка:<br>
+                    <b>{{ errorMessage | raw }}</b>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+{% include('common/_admin_footer.twig') %}

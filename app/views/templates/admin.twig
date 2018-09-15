@@ -1,0 +1,21 @@
+{% include('common/_header.twig') %}
+    <div class="main">
+
+        {% include('common/_admin_nav.twig') %}
+
+        <div class="content">
+            <div class="wrapper wrapper-admin">
+
+                {% include('common/_admin_info.twig') %}
+
+                <div class="admin-control-area">
+                    <a href="/admin/myfiles" class="big-btn">МОИ ФАЙЛЫ</a>
+                    <a href="/admin/userslist" class="big-btn">СПИСОК ПОЛЬЗОВАТЕЛЕЙ</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% include('common/_admin_footer.twig') %}

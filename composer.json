@@ -1,0 +1,17 @@
+{
+  "require": {
+    "twig/twig": "^2.0",
+    "illuminate/database": "^5.6",
+    "intervention/image": "^2.4",
+    "fzaninotto/faker": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "VP2\\app\\Controllers\\": "app/controllers",
+      "VP2\\app\\Core\\": "app/core",
+      "VP2\\app\\Models\\": "app/models",
+      "VP2\\app\\Views\\": "app/views"
+    }
+
+  }
+}
